@@ -1,0 +1,26 @@
+.section-subtitle{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  grid-area: subtitle;
+  padding-top: 86px;
+  margin: 0;
+  padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-subtitle{
+    padding-top: 19px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+  }
+}

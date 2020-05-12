@@ -1,0 +1,7 @@
+.portfolio__column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-area: column;
+  justify-content: space-between;
+}
