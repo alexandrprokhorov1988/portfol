@@ -4,19 +4,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/portfolio/portfolio.css);
-@import url(../blocks/skills/skills.css);
-
-
-@import url(../blocks/header/header.css);
-@import url(../blocks/contact/contact.css);
-@import url(../blocks/form/form.css);
-@import url(../blocks/title/title.css);
-@import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/about/about.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/gallerie/gallerie.css);
+@import url(../blocks/skills/skills.css);
+@import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/nav/nav.css);
-@import url(../blocks/nav/_type/nav_type_menu.css);
-@import url(../blocks/nav/_type/nav_type_header.css);

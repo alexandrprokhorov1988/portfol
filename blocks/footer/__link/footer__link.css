@@ -1,0 +1,15 @@
+.footer__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+  text-decoration: none;
+  width: 100%;
+  transition: all ease .5s;
+}
+
+.footer__link:hover{
+  color: rgba(157, 157, 157, 0.8);
+
+}

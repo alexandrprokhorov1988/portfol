@@ -1,0 +1,29 @@
+.about__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #333333;
+  margin: 0;
+}
+
+.about__text:first-of-type {
+  padding-bottom: 20px;
+  padding-top: 76px;
+}
+
+@media screen and (max-width: 1024px) {
+  .about__text {
+    text-align: justify;
+  }
+  .about__text:first-of-type {
+    padding-top: 19px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__text {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
