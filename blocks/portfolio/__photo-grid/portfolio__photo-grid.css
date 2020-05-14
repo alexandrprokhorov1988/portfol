@@ -12,22 +12,32 @@
           "img-3 img-4";
   grid-area: photo-grid;
   justify-self: end;
+  transition: all ease .5s;
 }
 
 @media screen and (max-width: 1024px) {
   .portfolio__photo-grid{
-    width: 100%;
-    justify-self: center;
-    grid-gap: 15px;
     grid-template-columns: minmax(100px, 350px) minmax(100px, 255px);
     padding-top: 25px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__photo-grid{
+    grid-gap: 15px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .portfolio__photo-grid{
     height: 195px;
-    grid-template-columns: minmax(50px, 170px) minmax(50px, 124px);
     grid-template-rows: 70px auto 70px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .portfolio__photo-grid{
+    grid-template-columns: minmax(50px, 170px) minmax(50px, 124px);
   }
 }

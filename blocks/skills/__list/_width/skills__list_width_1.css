@@ -1,0 +1,12 @@
+.skills__list_width_1 {
+  grid-area: list1;
+  padding: 0 20px;
+  justify-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .skills__list_width_1 {
+    justify-self: start;
+    padding: 0;
+  }
+}

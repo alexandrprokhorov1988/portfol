@@ -1,0 +1,20 @@
+@import url(./__grid/skills__grid.css);
+@import url(./__list/skills__list.css);
+@import url(./__list/_width/skills__list_width_1.css);
+@import url(./__list/_width/skills__list_width_2.css);
+@import url(./__list-bar/skills__list-bar.css);
+@import url(./__list-bar/_type/skills__list-bar_type_design.css);
+@import url(./__list-bar/_type/skills__list-bar_type_dev.css);
+@import url(./__list-bar/_type/skills__list-bar_type_research.css);
+@import url(./__list-item/skills__list-item.css);
+@import url(./__photo/skills__photo.css);
+@import url(./__text/skills__text.css);
+@import url(./__text/_weight/skills__text_weight_bold.css);
+@import url(./__section-title/skills__section-title.css);
+
+.skills{
+  margin: 0 auto;
+  width: calc(100% - 23%);
+  max-width: 1100px;
+  padding-top: 93px;
+}

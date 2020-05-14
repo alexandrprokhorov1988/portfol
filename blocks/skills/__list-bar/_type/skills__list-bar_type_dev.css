@@ -1,0 +1,17 @@
+.skills__list-bar_type_dev:before{
+  content: '';
+  width: 100%;
+  max-width: 64%;
+  height: 24px;
+  background-color: #C66C49;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px){
+  .skills__list-bar_type_dev:before {
+    height: 18px;
+  }
+}

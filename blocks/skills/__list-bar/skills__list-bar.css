@@ -1,0 +1,16 @@
+.skills__list-bar {
+  width: 100%;
+  max-width: 446px;
+  height: 24px;
+  background-color: #F5D6AB;
+  position: relative;
+  z-index: 1;
+  transition: all ease .5s;
+}
+
+@media screen and (max-width: 768px){
+  .skills__list-bar {
+    max-width: 211px;
+    height: 18px;
+  }
+}

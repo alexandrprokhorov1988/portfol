@@ -1,4 +1,4 @@
-# Верстка по макету Restaurant
+# Верстка по макету Portfolio
 
 ### Обзор
 * Описание
@@ -6,7 +6,7 @@
 * Технологии
 
 #### Описание
-* [Ссылка на макет в Figma](https://www.figma.com/file/yhqJTln2yAEuka54oIrOzY/restaurant?node-id=0%3A1)
+* [Ссылка на макет в Figma](https://www.figma.com/file/FQ8YecPRmuiYQFZP5mbfKm/Portfolio?node-id=0%3A1)
 
 #### Инструкция
 * [Ссылка на проект](https://alexandrprokhorov1988.github.io/Restaurant/)

@@ -1,0 +1,16 @@
+.skills__text {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  transition: all ease .5s;
+}
+
+@media screen and (max-width: 768px){
+  .skills__text {
+    font-size: 12px;
+  }
+}

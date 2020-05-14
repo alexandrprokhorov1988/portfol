@@ -1,0 +1,24 @@
+.skills__list-bar_type_design:before {
+  content: '';
+  width: 100%;
+  max-width: 80%;
+  height: 24px;
+  background-color: #C66C49;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .skills__list-bar_type_design:before {
+    height: 18px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .skills__list-bar_type_design:before {
+    /*max-width: 165px;*/
+    /*height: 12px;*/
+  }
+}

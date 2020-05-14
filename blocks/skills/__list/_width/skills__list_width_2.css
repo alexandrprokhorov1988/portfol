@@ -1,0 +1,5 @@
+.skills__list_width_2 {
+  grid-area: list2;
+  max-width: 446px;
+  width: 100%;
+}
