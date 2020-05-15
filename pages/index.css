@@ -6,5 +6,9 @@
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/about/about.css);
 @import url(../blocks/skills/skills.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_right.css);
+@import url(../blocks/button/_type/button_type_left.css);
+@import url(../blocks/button/_type/button_type_up.css);
 @import url(../blocks/portfolio/portfolio.css);
 @import url(../blocks/footer/footer.css);

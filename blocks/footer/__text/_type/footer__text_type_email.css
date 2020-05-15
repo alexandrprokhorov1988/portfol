@@ -2,3 +2,10 @@
   font-size: 18px;
   line-height: 22px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text_type_email {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

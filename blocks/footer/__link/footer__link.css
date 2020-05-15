@@ -9,7 +9,13 @@
   transition: all ease .5s;
 }
 
-.footer__link:hover{
+.footer__link:hover {
   color: rgba(157, 157, 157, 0.8);
+}
 
+@media screen and (max-width: 768px){
+  .footer__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
 }

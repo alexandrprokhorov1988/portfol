@@ -1,5 +1,5 @@
-.portfolio_button_type_right {
-  background-image: url(./../../../../images/right.svg);
+.button_type_right {
+  background-image: url(../../../images/right.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

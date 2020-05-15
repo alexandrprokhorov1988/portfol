@@ -13,7 +13,7 @@
 </head>
 <body>
 <div class="page">
-  <header class="header">
+  <header class="header" id="header">
 
   </header>
   <main class="content">
@@ -89,8 +89,8 @@
           cursus
           id. Diam massa semper a tincidunt cursus ultricies lectus eget urna.</p>
         <div class="portfolio__buttons">
-          <button type="button" class="portfolio__button portfolio_button_type_left"></button>
-          <button type="button" class="portfolio__button portfolio_button_type_right"></button>
+          <button type="button" class="button button_type_left"></button>
+          <button type="button" class="button button_type_right"></button>
         </div>
       </div>
       <div class="portfolio__photo-grid">
@@ -103,7 +103,7 @@
   </main>
   <footer class="footer">
     <h2 class="section-title footer__section-title">Get in Touch</h2>
-    <nav class="footer__nav">
+    <nav class="footer__nav footer__nav_position_left">
       <ul class="footer__list">
         <li class="footer__list-item">
           <a class="footer__link" href="#">Dribbble</a>
@@ -122,7 +122,7 @@
         </li>
       </ul>
     </nav>
-    <nav class="footer__nav">
+    <nav class="footer__nav footer__nav_position_center">
       <ul class="footer__list">
         <li class="footer__list-item">
           <a class="footer__link" href="#">LinkedIn</a>
@@ -138,7 +138,7 @@
         </li>
       </ul>
     </nav>
-    <div class="footer__contact-info">
+    <div class="footer__contact-info footer__contact-info_position_right">
       <ul class="footer__list">
         <li class="footer__list-item">
           <p class="footer__text footer__text_type_email">seyrig@mailme.com</p>
@@ -148,6 +148,7 @@
         </li>
       </ul>
     </div>
+    <a class="footer__anchor" href="#header"><button type="button" class="button button_type_up"></button></a>
   </footer>
 </div>
 </body>

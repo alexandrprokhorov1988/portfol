@@ -6,6 +6,11 @@
 @import url(./__text/footer__text.css);
 @import url(./__text/_type/footer__text_type_email.css);
 @import url(./__text/_type/footer__text_type_phone.css);
+@import url(./__contact-info/_position/footer__contact-info_position_right.css);
+@import url(./__nav/_position/footer__nav_position_center.css);
+@import url(./__nav/_position/footer__nav_position_left.css);
+@import url(./__section-title/footer__section-title.css);
+@import url(./__anchor/footer__anchor.css);
 
 .footer {
   margin: 0 auto;
@@ -13,12 +18,30 @@
   width: calc(100% - 23%);
   padding-top: 93px;
   padding-bottom: 145px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 24px;
+  grid-template-rows: repeat(2, auto) 24px;
+  grid-template-areas:
+          "title title title ."
+          "left-nav center-nav right-nav ."
+          ". . .button-up";
 }
 
 @media screen and (max-width: 1024px) {
   .footer {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(2, 1fr) 24px;
+    grid-template-rows: repeat(3, auto) 24px;
+    grid-template-areas:
+            "title title title"
+            "left-nav center-nav ."
+            "right-nav . button-up";
   }
 }
 

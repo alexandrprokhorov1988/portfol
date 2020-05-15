@@ -1,3 +1,19 @@
 .footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 95px;
+}
 
+.footer__list:first-of-type {
+  padding-top: 51px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__list {
+    padding-bottom: 0;
+  }
+  .footer__list:first-of-type {
+    padding-top: 30px;
+  }
 }

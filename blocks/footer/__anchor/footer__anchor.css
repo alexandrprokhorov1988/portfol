@@ -1,0 +1,10 @@
+.footer__anchor {
+  display: inline-block;
+  grid-area: button-up;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__anchor {
+    padding-top: 30px;
+  }
+}

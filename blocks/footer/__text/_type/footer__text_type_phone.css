@@ -2,3 +2,10 @@
   font-size: 15px;
   line-height: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__text_type_phone {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

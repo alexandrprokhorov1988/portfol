@@ -1,0 +1,11 @@
+@import url(./_type/button_type_left.css);
+@import url(./_type/button_type_right.css);
+
+.button {
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
