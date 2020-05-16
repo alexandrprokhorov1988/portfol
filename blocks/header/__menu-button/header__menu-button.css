@@ -1,0 +1,36 @@
+.header__menu-button {
+  background-image: url(../../../images/menu-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all ease .5s;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.header__menu-button:hover{
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1024px){
+  .header__menu-button{
+    display: block;
+    margin-top: 93px;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__menu-button{
+    display: block;
+    margin-top: 36px;
+  }
+}

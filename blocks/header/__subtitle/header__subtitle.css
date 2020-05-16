@@ -1,0 +1,19 @@
+.header__subtitle {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  grid-area: subtitle;
+  margin: 0;
+  padding-top: 26px;
+}
+
+
+@media screen and (max-width: 768px){
+  .header__subtitle{
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 13px;
+  }
+}

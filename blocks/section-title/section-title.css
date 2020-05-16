@@ -8,6 +8,12 @@
   margin: 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .section-title {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .section-title{
     font-weight: 600;

@@ -1,0 +1,19 @@
+.header__nav {
+  grid-area: header-nav;
+  justify-self: end;
+  transition: all ease .5s;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__nav {
+    display: none;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 27, 34, 0.62);
+  }
+}

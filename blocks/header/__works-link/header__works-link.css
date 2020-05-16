@@ -1,0 +1,23 @@
+.header__works-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  grid-area: link;
+  margin: 0;
+  padding-top: 106px;
+  transition: all ease .5s;
+}
+
+.header__works-link:hover {
+  color: rgba(217, 185, 162, 0.51);
+
+}
+@media screen and (max-width: 768px) {
+  .header__works-link {
+    font-size: 13px;
+    line-height: 16px;
+    padding-top: 41px;
+  }
+}

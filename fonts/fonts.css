@@ -1,49 +1,20 @@
 @font-face {
-  src:
-    url(./Inter-Regular.woff2) format('woff2'),
-    url(./Inter-Regular.woff) format('woff');
-  font-family: 'Inter';
+  font-family: 'Libre Franklin';
+  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url('Librefranklin.woff2') format('woff2'), url('Librefranklin.woff') format('woff'), url('Librefranklin.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
 }
 
 @font-face {
-  src:
-    url(./Inter-Black.woff2) format("woff2"),
-    url(./Inter-Black.woff) format("woff");
-  font-family: 'Inter';
+  font-family: 'Libre Franklin';
+  src: local('Libre Franklin SemiBold'), local('LibreFranklin-SemiBold'), url('Librefranklinsemibold.woff2') format('woff2'), url('Librefranklinsemibold.woff') format('woff'), url('Librefranklinsemibold.ttf') format('truetype');
+  font-weight: 600;
   font-style: normal;
-  font-weight: 900;
 }
 
 @font-face {
-  src:
-    url(./Inter-Medium.woff2) format("woff2"),
-    url(./Inter-Medium.woff) format("woff");
-  font-family: 'Inter';
+  font-family: 'Libre Franklin';
+  src: local('Libre Franklin Bold'), local('LibreFranklin-Bold'), url('Librefranklinbold.woff2') format('woff2'), url('Librefranklinbold.woff') format('woff'), url('Librefranklinbold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: 'Banny Round';
-  font-style: normal;
-  font-weight: normal;
-  src: url(./bunny/Banny-Round.woff) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Banny Light Round';
-  font-style: normal;
-  font-weight: normal;
-  src:url(./bunny/Banny-LightRound.woff) format('woff');
-}
-
-
-@font-face {
-  font-family: 'Banny Bold Round';
-  font-style: normal;
-  font-weight: normal;
-  src: url(./bunny/Banny-BoldRound.woff) format('woff');
 }

@@ -1,0 +1,25 @@
+.header__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transition: all ease .5s;
+  width: 600px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__list {
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header__list {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+}

@@ -10,7 +10,6 @@
 @import url(./__photo/skills__photo.css);
 @import url(./__text/skills__text.css);
 @import url(./__text/_weight/skills__text_weight_bold.css);
-@import url(./__section-title/skills__section-title.css);
 
 .skills{
   margin: 0 auto;

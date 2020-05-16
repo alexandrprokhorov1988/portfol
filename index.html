@@ -14,11 +14,36 @@
 <body>
 <div class="page">
   <header class="header" id="header">
-
+    <div class="header__container">
+      <h2 class="section-title section-title_type_header">Portofolio</h2>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="#" class="header__link">Home</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">About</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Skills</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Portfolio</a>
+          </li>
+          <li class="header__list-item">
+            <a href="#" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <h1 class="header__title">Hi, It’s Théophile Seyrig</h1>
+      <p class="header__subtitle">Designer from Porto, Portugal</p>
+      <a href="#" class="header__works-link">Latest works</a>
+      <button type="button" class="header__menu-button"></button>
+    </div>
   </header>
   <main class="content">
     <section class="about">
-      <h2 class="section-title about__section-title">About</h2>
+      <h2 class="section-title">About</h2>
       <p class="about__text">Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus,
         diam penatibus aliquet tellus, in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed.
         Consectetur adipiscing elit. Egestas porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.
@@ -30,7 +55,7 @@
         Pellentesque.</p>
     </section>
     <section class="skills">
-      <h2 class="section-title skills__section-title">Skills</h2>
+      <h2 class="section-title">Skills</h2>
       <div class="skills__grid">
         <img class="skills__photo" src="./images/skills.jpg" alt="Фото профиля.">
         <ul class="skills__list skills__list_width_1">
@@ -102,7 +127,7 @@
     </section>
   </main>
   <footer class="footer">
-    <h2 class="section-title footer__section-title">Get in Touch</h2>
+    <h2 class="section-title">Get in Touch</h2>
     <nav class="footer__nav footer__nav_position_left">
       <ul class="footer__list">
         <li class="footer__list-item">
@@ -148,8 +173,11 @@
         </li>
       </ul>
     </div>
-    <a class="footer__anchor" href="#header"><button type="button" class="button button_type_up"></button></a>
+    <a class="footer__anchor" href="#header">
+      <button type="button" class="button button_type_up"></button>
+    </a>
   </footer>
 </div>
+<script src="scripts/index.js"></script>
 </body>
 </html>
