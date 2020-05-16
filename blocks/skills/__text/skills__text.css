@@ -6,6 +6,8 @@
   font-size: 18px;
   line-height: 25px;
   color: #333333;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 

@@ -17,8 +17,11 @@
   width: calc(100% - 23%);
   padding-top: 93px;
   padding-bottom: 145px;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 24px;
   grid-template-columns: repeat(3, 1fr) 24px;
+  -ms-grid-rows: auto auto 24px;
   grid-template-rows: repeat(2, auto) 24px;
   grid-template-areas:
           "title title title ."
@@ -35,7 +38,9 @@
 
 @media screen and (max-width: 768px) {
   .footer {
+    -ms-grid-columns: 1fr 1fr 24px;
     grid-template-columns: repeat(2, 1fr) 24px;
+    -ms-grid-rows: auto auto auto 24px;
     grid-template-rows: repeat(3, auto) 24px;
     grid-template-areas:
             "title title title"

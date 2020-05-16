@@ -18,6 +18,8 @@
     border-right: 1px solid white;
     width: 100px;
     padding-right: 60px;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
     transition: all ease .5s;
   }
 }

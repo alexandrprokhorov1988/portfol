@@ -1,11 +1,13 @@
 .skills__list_width_1 {
   grid-area: list1;
   padding: 0 20px;
+  -ms-grid-column-align: center;
   justify-self: center;
 }
 
 @media screen and (max-width: 768px) {
   .skills__list_width_1 {
+    -ms-grid-column-align: start;
     justify-self: start;
     padding: 0;
   }

@@ -1,6 +1,9 @@
 .header__nav {
   grid-area: header-nav;
+  -ms-grid-column-align: end;
   justify-self: end;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 

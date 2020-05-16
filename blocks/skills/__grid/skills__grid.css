@@ -1,6 +1,9 @@
 .skills__grid {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto auto auto;
   grid-template-columns: auto auto auto;
+  -ms-grid-rows: 340px;
   grid-template-rows: 340px;
   grid-template-areas:
           "img list1 list2";
@@ -9,7 +12,9 @@
 
 @media screen and (max-width: 1024px){
   .skills__grid {
+    -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
+    -ms-grid-rows: 340px 26px 340px;
     grid-template-rows: repeat(2,340px);
     grid-template-areas:
             "img img"
@@ -21,22 +26,66 @@
 
 @media screen and (max-width: 768px){
   .skills__grid {
+    -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) auto;
+    -ms-grid-columns: minmax(min-content, max-content) auto;
+    grid-template-columns: minmax(-webkit-min-content, -webkit-max-content) auto;
     grid-template-columns: minmax(min-content, max-content) auto;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -ms-grid-rows: 340px 250px;
     grid-template-rows: 340px 250px;
+  }
+  .skills__grid > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .skills__grid > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+  .skills__grid > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .skills__grid > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
   }
 }
 
 @media screen and (max-width: 425px){
   .skills__grid {
+    -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
+    -ms-grid-rows: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+  }
+  .skills__grid > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .skills__grid > *:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+  .skills__grid > *:nth-child(3) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+  }
+  .skills__grid > *:nth-child(4) {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
   }
 }
 
 @media screen and (max-width: 375px){
   .skills__grid {
+    -ms-grid-columns: minmax(-webkit-min-content, -webkit-max-content) 10px auto;
+    -ms-grid-columns: minmax(min-content, max-content) 10px auto;
+    grid-template-columns: minmax(-webkit-min-content, -webkit-max-content) auto;
     grid-template-columns: minmax(min-content, max-content) auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-column-gap: 10px;
   }

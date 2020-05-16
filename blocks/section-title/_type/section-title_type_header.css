@@ -1,4 +1,6 @@
 .section-title_type_header{
   color: #FFFFFF;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
   align-self: center;
 }

@@ -5,6 +5,8 @@
   background-color: #F5D6AB;
   position: relative;
   z-index: 1;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 

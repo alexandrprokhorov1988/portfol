@@ -7,6 +7,8 @@
   grid-area: link;
   margin: 0;
   padding-top: 106px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 

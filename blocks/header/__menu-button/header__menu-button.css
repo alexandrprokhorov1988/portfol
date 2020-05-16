@@ -3,6 +3,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
   width: 24px;
   height: 24px;
@@ -17,6 +19,8 @@
 }
 
 .header__menu-button:hover{
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 

@@ -1,15 +1,19 @@
 .skills__photo {
   grid-area: img;
   width: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   height: 100%;
   max-width: 350px;
   max-height: 340px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 
 @media screen and (max-width: 1280px) {
   .skills__photo {
+    -ms-grid-column-align: center;
     justify-self: center;
   }
 }

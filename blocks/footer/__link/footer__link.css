@@ -6,6 +6,8 @@
   color: #333333;
   text-decoration: none;
   width: 100%;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
   transition: all ease .5s;
 }
 
